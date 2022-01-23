@@ -1,0 +1,114 @@
+footer{
+    background: $f-bg;
+    padding-top: 185px;
+    padding-bottom: 40px;
+
+    .footer-logo{
+        img{
+            width: 110px;
+        }
+    }
+    .footer-item{
+        padding-top: 50px;
+        // background: #35174e;
+
+    }
+    .fs-14{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .item-1{
+
+        ul{
+            li{
+                position: relative;
+                a{
+                    img{
+                        position: absolute;
+                        left: 0;
+                        top: 8px;
+                    }
+                    p{
+                        color: $para;
+                        margin-left: 30px;
+                        font-weight: 400;
+
+                        @include trans2(0.4s);
+
+                        &:hover{
+                            color: #fff;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .ul-2{
+            padding-top: 20px;
+        }
+        .ul-ml{
+            margin-left: 25px;
+        }
+
+    }
+    .item-2{
+        display: flex;
+        ul{
+            li{
+                margin-bottom: 10px;
+                a{
+                    color: $para;
+                    font-weight: 400;
+                    @include trans2(0.4s);
+
+                    &:hover{
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+        .ul-3{
+            margin-left: 60px;
+        }
+    }
+    .item-3{
+        ul{
+            display: flex;
+            li{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                border: 1px solid #fff;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+                
+                &:last-of-type{
+                    margin-right: 0;
+                }
+                
+                a{
+                    color: #fff;
+                    font-size: 14px;
+                    @include trans2(0.4s);
+                }
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                @include trans2(0.4s);
+                
+                &:hover{
+                    border: 1px solid $cyan;
+                    a{
+                        color: $cyan;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}

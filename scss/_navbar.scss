@@ -1,0 +1,43 @@
+/* =================   navbar starts   ==============*/
+.navbar{
+    padding-top: 40px !important;
+
+    
+    .navbar-nav{
+        .nav-item{
+            margin-left: 50px;
+            @include trans2(0.4s);
+            position: relative;
+            
+            &:first-of-type{
+                margin-left: 0;
+            }
+            
+            .nav-link{
+                color: #c1c5ca;
+                font-family: $rw;
+                font-size: 14px;
+
+                &::after{
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    background: #fff;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    @include trans2(0.4s);
+                }
+            }
+            &:hover{
+                .nav-link{
+                    color: #fff;
+                    &::after{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
+/* =================   navbar   ends   ==============*/ 

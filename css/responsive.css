@@ -1,0 +1,348 @@
+/* ==================   extra-small device css   ================== */
+@media (max-width: 575px){
+
+    /* ==========    navbar starts    ========== */
+    
+    .navbar-light .navbar-brand img{
+        width: 70%;
+    }
+    .navbar .navbar-nav {
+        background: #172b42;
+        text-align: center;
+    }
+    
+    .navbar-light .navbar-toggler{
+        color: #fff !important;
+        border-color: transparent;
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler i{
+        font-size: 25px;
+    }
+    
+    .navbar .navbar-nav .nav-item{
+        margin-left: 0;
+        margin-top: 15px;
+        
+    }
+    .navbar .navbar-nav .nav-item:last-of-type{
+        margin-bottom: 20px;
+    }
+    .navbar .navbar-nav .nav-item:hover .nav-link::after{
+        width: 100%;
+    }
+   
+    /* ==========    navbar ends    ========== */
+
+    /* ============   banner starts   ============ */
+    #banner .banner-bg{
+        padding-bottom: 110px;
+    }
+    #banner .banner-bg .container .banner-img img{
+        width: 80%;
+    }
+    #banner .banner-bg .container .banner-text h1{
+        font-size: 26px;
+        line-height: 32px;
+        padding-top: 40px;
+    }
+    #banner .banner-bg .container .banner-text p{
+        padding: 30px 20px;
+        padding: 20px  0 30px 0;
+        font-size: 15px;
+    }
+    #banner .banner-bg .container .banner-text a{
+        line-height: 45px;
+    }
+    #banner .banner-bg .container .banner-text a .btn-01{
+        width: 180px;
+        font-size: 15px;
+    }
+    /* ============   banner   ends   ============ */
+
+     /* ============   service starts   ============ */
+     #service{
+        padding-bottom: 100px;
+    }
+    #service .service-item.item-02{
+        margin-top: 90px;
+    }
+    #service .service-item .service-text p{
+        padding: 0 14px;
+    }
+    /* ============   service   ends   ============ */
+
+    /* ============   productive starts   ============ */
+
+    #productive .productive-img{
+        text-align: center;
+    }
+    #productive .productive-img img{
+        width: 80%;
+    }
+    #productive .productive-text{
+        padding-top: 50px;
+        text-align: center;
+    }
+    #productive .productive-text h2{
+        font-size: 26px;
+    }
+    #productive .productive-text p{
+        padding: 0 20px;
+    }
+    /* ============   productive   ends   ============ */
+
+    /* ============   testimonial starts   ============ */
+    
+    #testimonial{
+        padding-bottom: 300px;
+    }
+    /* ============   testimonial   ends   ============ */
+
+    /* ============   register starts   ============ */
+    #register .register-item .register-text{
+        width: 250px;
+        top: -200px;
+    }
+    #register .register-item .register-text form .email-1{
+        width: 225px;
+        line-height: 40px;
+        padding-left: 37xp;
+    }
+    #register .register-item .register-text form .err{
+        left: 22px;
+        bottom: 47px;
+    }
+    #register .register-item .register-text form .btn-01{
+        width: 170px;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    #register .register-item .register-text h3{
+        font-size: 26px;
+    }
+    #register .register-item .register-text p{
+        padding: 15px 10px 30px 10px;
+    }
+    /* ============   register   ends   ============ */
+
+    /* ============   footer starts   ============ */
+
+    footer{
+        padding-top: 260px;
+    }
+    footer .footer-logo{
+        text-align: center;
+    }
+    footer .footer-item.icon-ml{
+        margin-left: 25px;
+
+    }
+    
+    footer .item-1 ul li a p{
+        padding-right: 25px;
+    }
+    footer .item-2{
+        margin-left: 25px;
+    }
+    
+    /* ============   footer   ends   ============ */
+    
+    
+}
+/* ==================   extra-small device css   ================== */
+
+/* ==================   small device css   ================== */
+@media (min-width: 576px) and (max-width: 767px){
+
+    /* ============   navbar starts   ============ */
+    .navbar .navbar-nav{
+        margin-right: 15px !important;
+    }
+    .navbar-light .navbar-brand img{
+        width: 80%;
+    }
+    /* ============   navbar   ends   ============ */
+
+    /* ============   banner starts   ============ */
+    #banner .banner-bg{
+        padding-bottom: 130px;
+    }
+    #banner .banner-bg .container .banner-img img{
+        width: 80%;
+    }
+    #banner .banner-bg .container .banner-text h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 40px;
+    }
+    #banner .banner-bg .container .banner-text p{
+        padding: 30px 20px;
+        padding: 20px  10px 30px 10px;
+    }
+    /* ============   banner   ends   ============ */
+
+    /* ============   service starts   ============ */
+    #service{
+        padding-bottom: 100px;
+    }
+    #service .service-item.item-02{
+        margin-top: 90px;
+    }
+    
+    /* ============   service   ends   ============ */
+
+    /* ============   productive starts   ============ */
+    #productive .productive-img img{
+        width: 80%;
+    }
+    #productive .productive-text{
+        padding-top: 70px;
+    }
+    #productive .productive-text h2{
+        font-size: 32px;
+    }
+    #productive .productive-text p{
+        padding: 0 50px;
+    }
+    /* ============   productive   ends   ============ */
+
+    /* ============   register starts   ============ */
+    #register .register-item .register-text{
+        width: 500px;
+        top: -175px;
+    }
+    #register .register-item .register-text form .email-1{
+        width: 370px;
+        line-height: 40px;
+    }
+    #register .register-item .register-text form .err{
+        left: 108px;
+        bottom: 53px;
+    }
+    #register .register-item .register-text form .btn-01{
+        line-height: 45px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    #register .register-item .register-text h3{
+        font-size: 32px;
+    }
+    #register .register-item .register-text p{
+        padding: 15px 75px 30px 75px;
+    }
+    /* ============   register   ends   ============ */
+    /* ============   footer starts   ============ */
+
+    footer{
+        padding-top: 230px;
+    }
+    
+    footer .item-1 ul li a p{
+        padding-right: 25px;
+    }
+    footer .item-2{
+        margin-left: 30px;
+    }
+    
+    
+    
+    /* ============   footer   ends   ============ */
+
+}
+
+/* ==================   small device css   ================== */
+
+/* ==================   medium device css   ================== */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    /* ============   navbar starts   ============ */
+    .navbar .navbar-nav{
+        margin-right: 15px !important;
+    }
+    .navbar-light .navbar-brand img{
+        width: 80%;
+    }
+    /* ============   navbar   ends   ============ */
+
+    /* ============   banner starts   ============ */
+    #banner .banner-bg .container .banner-img img{
+        width: 80%;
+    }
+    #banner .banner-bg .container .banner-text h1{
+        font-size: 32px;
+        padding-top: 40px;
+    }
+    #banner .banner-bg .container .banner-text p{
+        padding: 30px 20px;
+        padding: 25px  10px 30px 10px;
+    }
+    /* ============   banner   ends   ============ */
+    
+    /* ============   service starts   ============ */
+    #service{
+        padding-bottom: 100px;
+    }
+    #service .service-item .service-text p{
+        padding: 0 18px;
+    }
+    /* ============   service   ends   ============ */
+
+    /* ============   productive starts   ============ */
+    #productive .productive-img img{
+        width: 80%;
+    }
+    #productive .productive-text{
+        padding-top: 70px;
+    }
+    #productive .productive-text h2{
+        font-size: 32px;
+    }
+    #productive .productive-text p{
+        padding: 0 145px;
+    }
+    /* ============   productive   ends   ============ */
+
+    /* ============   register starts   ============ */
+    #register .register-item .register-text{
+        width: 700px;
+        top: -140px;
+    }
+    #register .register-item .register-text form .email-1{
+        width: 370px;
+    }
+    #register .register-item .register-text form .err{
+        left: 90px;
+        bottom: -25px;
+    }
+    #register .register-item .register-text h3{
+        font-size: 32px;
+    }
+    #register .register-item .register-text p{
+        padding: 15px 85px 40px 85px;
+    }
+    /* ============   register   ends   ============ */
+
+    /* ============   footer starts   ============ */
+    footer .footer-item.item-01{
+        margin-left: 50px;
+        
+    }
+    footer .item-2{
+        margin-left: 30px;
+    }
+    footer .item-2 .ul-3{
+        margin-left: 140px;
+    }
+    
+    /* ============   footer   ends   ============ */
+    
+}
+/* ==================   medium device css   ================== */

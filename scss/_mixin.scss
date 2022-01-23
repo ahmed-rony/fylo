@@ -1,0 +1,15 @@
+@mixin trans1($time) {
+    transition: all linear $time;
+    -webkit-transition: all linear $time;
+    -moz-transition: all linear $time;
+    -ms-transition: all linear $time;
+    -o-transition: all linear $time;
+}
+
+@mixin trans2($time) {
+    transition: all ease $time;
+    -webkit-transition: all ease $time;
+    -moz-transition: all ease $time;
+    -ms-transition: all ease $time;
+    -o-transition: all ease $time;
+}

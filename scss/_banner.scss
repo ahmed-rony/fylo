@@ -1,0 +1,64 @@
+@import 'variable';
+@import 'mixin';
+
+/* ==============   banner starts   ================= */ 
+#banner{
+    background: $ie-bg;
+    
+    .banner-bg{
+        background: url(../images/bg-curvy-desktop.svg) no-repeat bottom;
+        background-size: 100% 400px;
+        padding-bottom: 150px;
+        
+        
+        .container{
+            .banner-img{
+                img{
+                    margin-top: 140px;
+                }
+            }
+            .banner-text{
+                text-align: center;
+                h1{
+                    color: #fff;
+                    font-family: $rw;
+                    font-weight: 700;
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 55px;
+                    padding-top: 45px;
+        
+                }
+                p{
+                    color: #c1c5ca;
+                    font-size: 18px;
+                    padding: 30px  307px 25px 307px;
+                }
+                a{
+                    line-height: 55px;
+                    color: #fff;
+                    font-family: $os;
+                    font-weight: 700;
+                    .btn-01{
+                        display: inline-block;
+                        width: 280px;
+                        background: hsl(176, 51%, 51%);
+                        
+                        border-radius: 55px;
+                        -webkit-border-radius: 55px;
+                        -moz-border-radius: 55px;
+                        -ms-border-radius: 55px;
+                        -o-border-radius: 55px;
+                        @include trans1(0.3s);
+                    }
+                    &:hover{
+                        .btn-01{
+                            background: $cyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==============   banner   ends   ================= */ 

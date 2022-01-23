@@ -1,0 +1,30 @@
+/* ===================   service starts   ===================== */ 
+#service{
+    background: $main-bg;
+    padding-bottom: 120px;
+    .service-item{
+        text-align: center;
+        .img-2{
+            margin-top: 95px;
+        }
+        .service-text{
+            h4{
+                color: #fff;
+                font-family: $rw;
+                padding-bottom: 5px;
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 25px;
+            }
+            .secure{
+                padding-top: 10px;
+            }
+            p{
+                color: $para;
+                font-size: 14px;
+                padding: 0 110px;
+            }
+        }
+    }
+}
+/* ===================   service   ends   ===================== */ 

@@ -1,0 +1,54 @@
+/* ===================   testimonial starts   ===================== */
+#testimonial{
+    background: $main-bg;
+    padding-bottom: 350px;
+
+    .quote{
+        img{
+            position: absolute;
+            top: -35px;
+            left: -2px;
+
+        }
+    }
+
+    .testimonial-item{
+        color: $para;
+        margin: 0 10px;
+        .testimonial-text{
+            padding: 35px 25px 30px 35px;
+            background: $t-bg;
+            p{
+                font-size: 15px;
+                font-family: $os;
+                padding-bottom: 20px;
+            }
+            
+        }
+        .identity{
+            display: flex;
+            .person{
+                img{
+                    width: 40px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    padding-right: 8px;
+                }
+            }
+            .name{
+                h5{
+                    font-size: 14px;
+                    color: #fff;
+                }
+                h6{
+                    font-size: 13px;
+                }
+            }
+        }
+        
+    }
+}
+/* ===================   testimonial   ends   ===================== */ 
